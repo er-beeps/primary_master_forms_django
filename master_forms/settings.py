@@ -82,14 +82,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'HOST': 'localhost',
-        'PORT' : 5435,
+        'PORT' : 5432,
         'NAME': 'master_forms',
         'USER': 'postgres',
         'PASSWORD' : 'admin'
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
